@@ -1,0 +1,28 @@
+Ejercico 1
+a)	/espacio/galaxia[@nombre="Via Lactea"]/estrella/planeta[@nombre="Mercurio"]
+b)	/espacio/galaxia[@nombre="Via Lactea"]/estrella/planeta[@nombre="Jupiter"]/satelite[@nombre="Calisto"]
+
+Ejercico2
+
+c)	/galaxia[@nombre=”Via lactea”]/estrella/planeta[@nombre=”Pluton”]
+d)	/sistema_estelar[@nombre=”Alfa centauri”]:/espacio/galaxia[@nombre=”Via lactea”]/estrella/planeta[@nombre=”Tierra”]/satélite[@nombre=”Luna”]
+e)	/galaxia[@nombre=”Enana de Sagitario”]:/espacio/galaxia[@nombre=”Vías Lactea”]/estrella/planeta[@nombre=”Jupiter”]/satélite[@nombre=”Europa”]
+f)	/planeta[@nombre=”Alfa Centauri Bb”]/parent::estrella/parent::sistema_estelar/parent::galaxia[@nombre=”Via Lactea”]/estrella/planeta[@nombre=”Jupiter”]
+   
+
+
+Ejercicio 0 html
+a)  $x(“//div[@id=’divone’]”)
+b) $x(“//div[@class=’container’]”)
+c) $x(“//p[@class=’common’ and @id=’enclosedone’]”)
+d) $x(“//p[@id=’enclosedone’ and contains(text(), ‘Element One’)]”)
+e)
+	            i) <p class="cammon" id="enclosedone">Element One</p>
+	           ii)<p class="common" id="enclosedone">Element One</p>
+  <p class="common" id="enclosedtwo">Element Two</p>
+           iii) <p class="common" id="enclosedone">Element One</p>
+           iv) <p class="common" id="enclosedone">Element One</p>
+                <p class="common" id="enclosedtwo">Element Two</p>
+             v) nos devuelve el body
+              vi) no devuelve nada 
+	vii) no devuelve nada
